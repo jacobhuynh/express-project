@@ -26,8 +26,8 @@ function Messages() {
     const deleteMessage = async (id) => {
         try {
             const response = await axios.delete(`http://127.0.0.1:3001/messages/delete/${id}`)
-            console.log("Delete Successful: ", response.data);
             getMessages();
+            console.log("Delete Successful: ", response.data);
         } catch (e) {
             console.error("Failed to delete: ", e.response?.data || e.message);
         }
@@ -41,7 +41,7 @@ function Messages() {
         try {
             const response = axios.put(`http://127.0.0.1:3001/messages/update/${id}`, data)
             console.log("Update Successful: ", response.data);
-            window.location.reload();
+            getMessages();
         } catch (e) {
             console.error("Failed to update: ", e.response?.data || e.message);
         }
