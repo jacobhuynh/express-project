@@ -1,0 +1,102 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    box-sizing: border-box;
+}
+
+.card {
+    width: 35%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 2px;
+    padding: 20px;
+}
+
+.cardHeader {
+    padding: 10px;
+}
+
+.cardHeaderText {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.cardHeaderSubtext {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.input {
+    width:100%;
+    box-sizing: border-box;
+    margin-bottom:10px;
+}
+
+.inputText {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    padding:3px;
+}
+
+.inputField {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.textAreaField {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.messageForm {
+    padding: 10px;
+}
+
+.messageName {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.messageBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.messageButton {
+    width: 40px;
+    height: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 3px;
+}
+
+.row {
+    display:flex;
+}
+
+.editForm {
+    width: 100%;
+}
